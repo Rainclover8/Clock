@@ -3,6 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background: rgb(0, 0, 0);
+  background: linear-gradient(to right, #a9a9a9, #778899);
+  min-width: 100vw;
+}
 .parentDiv {
   display: flex;
   justify-content: center;
