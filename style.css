@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.parentDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.childDiv {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.childDiv > span {
+  font-size: 40px;
+  color: #cd853f;
+  font-weight: 900;
+}
+.border {
+  display: flex;
+  padding: 20px;
+  border: 4px solid #8b795e;
+  background-color: #ffdead;
+}
+.childDiv > h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #8b4513;
+}
